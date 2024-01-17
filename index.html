@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c5e9598889.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Home -->
+    <section>
+
+    
+    <div id="header" >
+        
+       
+            <div class="backnav " >
+            <nav >
+                <h1 id="logo">Portfolio</h1>
+                <ul class="nav-items" id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" id="menu-icon" onclick="openmenu()"></i>
+            </div>
+            </nav>
+            
+            <div class="container">
+                <div class="header-main">
+            <div class="header-text ">
+                
+                <h1>Hi, I'm <span>Dnyaneshwar</span></h1>
+                <p>Coder <span>||</span> Front-End Devloper</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vighne-dnyaneshwar/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/dnyaneshwar33" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href= "https://www.facebook.com/vighne.dnyaneshwar?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href= "https://www.instagram.com/v_d_3333?igsh=cHR1OGh3bzQ2dnNs" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+                </div>
+                <a href="images/DNYANESHWAR VIGHNE - FINAL.pdf" download class="btn1">Download Resume</a>
+
+           </div>
+           <div class="header-img">
+            <img src="images/asset 21.png" height="400px" width="400px" alt="">
+           </div>
+        </div>
+    </div>
+       
+    </div>
+</section>
+<!-- ABOUT -->
+<section>
+    <div id="about">
+        <div class="container">
+            <h1 class="sub-title heading">About Me</h1>
+              <div class="row">
+                <div class="about-col1">
+                    <img src="images/work-3.jpg" width= alt="img">
+                </div>
+                <div class="about-col2">
+                    
+                    <p id="abt-para">🎓 I’m a final year Computer Science undergrad at Savitribai Phule Pune University.With a deep love for programming, development and analytics. <br><br>
+
+                        📊A "Data Enthusiast" who revels in converting raw data into meaningful insights. <br><br>
+                       
+                       🚀I'm adaptive and a fast learner, eager to learn new technologies and apply my skills and knowledge to a professional setting. </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="experience">
+                    <ul>
+                       <li id="title"><span>Python-ML Intern</span><span id="date">2023:FEB-MARCH</span> <br>YBI foundation</li>
+                       <li><span>Web Developer Intern</span><span id="date">2023:AUG-SEP</span><br>OctaNet S/W Services</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                       <li><span>BE-Computer</span><span id="date">2020-Current</span> <br>SPPU</li>
+                       <li><span>Higher Secondary College</span><span id="date">2020</span> <br>Sanjivani Jr College,Kopargaon</li>
+
+                    </ul>
+                </div>
+
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+<!-- Skill section -->
+<section class="skills" id="skills">
+    <div class="container">
+    <h2 class="heading"> My Skills </h2>
+       <div class="skill-container">
+        <div class="skill-box">
+            <i class="fa-solid fa-code"></i>
+            <h3>Programming Languages</h3>
+            <p>    Proficient in several programming languages, I have a strong foundation in Core Java, Python, C++, and SQL. With a solid grasp of object-oriented programming in Java,and expertise in SQL for database management.I am well-equipped to contribute effectively.</p>
+            <a href="#" class="btn">Know more</a>
+        </div>
+        <div class="skill-box">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Front End Devlopement</h3>
+            
+            <p>
+                As a front-end developer, I am strong in  — HTML, CSS, and JavaScript. Proficient in crafting structured and semantic HTML, styling with CSS , and implementing dynamic features using JavaScript, I am dedicated to delivering seamless user experiences. </p>
+            <a href="#" class="btn">Know more</a>
+        </div>
+        <div class="skill-box">
+            <i class="fa-solid fa-cloud"></i>
+            <h3>Data and Cloud Explorer</h3>
+            <p>Familiar with visualizations libraries like NumPy and Pandas for data manipulation, and adept at creating insightful visualizations with Matplotlib and Seaborn. Additionally, I have hands-on experience with various AWS services including S3,Lambda,SNS,IAM .</p>
+            <a href="#" class="btn">Know more</a>
+        </div>
+       </div>
+    </div>
+</section>
+<!-- Project section -->
+<section id="projects">
+    <div class="portfolio" >
+        <div class="container">
+            <h1 class="sub-title heading">Latest Project</h1>
+            <div class="work-list">
+                <div class="work box">
+                    <img class="box-image" src="images/work-1.jpg"  alt="">
+                    <div class="layer1">
+                        <h3>FoodieBay</h3>
+                        <p> ►Designed an intuitive UI for browsing menus, adding items to the cart, and placing orders. <br>
+                            ►Utilized responsive design techniques to ensure seamless user experience across devices. <br>
+                            ►Using HTML,CSS Bootstrap,JS</p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work box">
+                    <img class="box-image" src="images/work-1.jpg" alt="">
+                    <div class="layer1">
+                        <h3>Clone Websites</h3>
+                        <p>►Developed a faithful clones of a well-known business websites, replicating its design and functionality <br>
+                          ►The project showcases proficiency in frontend development. <br>
+                          ►Utilizing HTML,CSS,JS. </p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="work box">
+                    <img class="box-image" src="images/work-1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social media</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, provident!</p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade"></i></a>
+                    </div>
+                </div> -->
+            </div>
+            <div class="work-list">
+                <div class="work box">
+                    <img class="box-image" src="images/work-1.jpg"  alt="">
+                    <div class="layer">
+                        <h3>Python-ML</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, provident!</p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work box">
+                    <img class="box-image" src="images/work-1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social media</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, provident!</p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work box">
+                    <img class="box-image" src="images/work-1.jpg" alt="">
+                    <div class="layer">
+                        <h3>E-commerce</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, provident!</p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact">
+        <div class="container">
+            <h1 class="sub-title heading">Contact me </h1>
+                 <div class="row">
+                    
+                    <div class="contact-left">
+                        
+                        <p><i class="fa-solid fa-envelope fa-beat-fade"></i>vighne3333@gmail.com</p>
+                        <p> <i class="fa-solid fa-square-phone fa-beat-fade"></i>+919623898116</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="images/DNYANESHWAR VIGHNE - FINAL.pdf" download class="btn1">Download CV</a>
+                    </div>
+                     <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email">
+                            <textarea name="Message" rows="6" placeholder="Type your message"></textarea>
+                            <button type="submit" class="btn1">SUBMIT</button>
+                        </form>
+                        <span id="msg"></span>
+                     </div>
+                 </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Dnyaneshwar.Made with <i class="fa-solid fa-heart"></i> By VD</p>
+    </div>
+</div>
+</section>
+    <script src="Script.js"></script>
+</body>
+</html>
